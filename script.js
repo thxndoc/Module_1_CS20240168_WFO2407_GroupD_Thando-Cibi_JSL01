@@ -4,8 +4,8 @@ function validateSyntax() {
     let result = ''; // Placeholder for validation result
     const valid = "Valid Syntax";
     const invalid = "Invalid Syntax";
-    const validIndicator = "🟢";
-    const invalidIndicator = "🔴";
+    const validIndicator = "\u{1F7E2}";
+    const invalidIndicator = "\u{1F534}";
     
     if (input === "") {
         alert("The field cannot be empty");
