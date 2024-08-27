@@ -5,11 +5,11 @@ function validateSyntax() {
     const valid = "Valid Syntax";
     const invalid = "Invalid Syntax" + String.fromCodePoint(0x23FA);
     
-    if (input.startsWith("pet_")) {
-        result = valid;
-    } else if (input === ""){
+    if (input === "") {
         alert("The field cannot be empty");
         return false;
+    } else if (input.startsWith("pet_")){
+        result = valid;
     } else {
         result = invalid;
     }
