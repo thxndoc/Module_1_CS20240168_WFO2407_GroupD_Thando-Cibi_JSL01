@@ -3,15 +3,17 @@ function validateSyntax() {
     // Validation logic goes here
     let result = ''; // Placeholder for validation result
     const valid = "Valid Syntax";
-    const invalid = "Invalid Syntax" + String.fromCodePoint(0x23FA);
+    const invalid = "Invalid Syntax";
+    const validIndicator = "🟢";
+    const invalidIndicator = "🔴";
     
     if (input === "") {
         alert("The field cannot be empty");
         return false;
     } else if (input.startsWith("pet_")){
-        result = valid;
+        result = `${valid} ${validIndicator}`;
     } else {
-        result = invalid;
+        result = `${invalid} ${invalidIndicator}`;
     }
     // TODO: Write your validation logic here
         // Check if input starts with 'pet_' and followed by alphanumeric characters
