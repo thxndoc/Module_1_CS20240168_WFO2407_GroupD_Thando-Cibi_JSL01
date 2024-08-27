@@ -2,9 +2,14 @@ function validateSyntax() {
     let input = document.getElementById('petInput').value;
     // Validation logic goes here
     let result = ''; // Placeholder for validation result
-    let valid = "Valid Syntax";
-    let invalid = "Invalid Syntax";
-
+    const valid = "Valid Syntax";
+    const invalid = "Invalid Syntax" + String.fromCodePoint(0x23FA);
+    
+    if (input.startsWith("pet_")) {
+        result = valid;
+    } else {
+        result = invalid;
+    }
     // TODO: Write your validation logic here
         // Check if input starts with 'pet_' and followed by alphanumeric characters
             
