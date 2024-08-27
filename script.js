@@ -7,6 +7,9 @@ function validateSyntax() {
     
     if (input.startsWith("pet_")) {
         result = valid;
+    } else if (input === ""){
+        alert("The field cannot be empty");
+        return false;
     } else {
         result = invalid;
     }
