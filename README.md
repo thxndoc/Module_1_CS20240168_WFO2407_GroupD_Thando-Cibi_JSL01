@@ -1,5 +1,6 @@
 # Project Overview: Syntax-Engine Interaction Challenge
 Create a JavaScript function on virtual pet adoption website that:
+
 ✅ Takes a string input
 ✅ Validates if it follows the syntax: "pet_" + letters and numbers
 ✅ Returns "Valid Syntax" if it matches, otherwise "Invalid Syntax"
