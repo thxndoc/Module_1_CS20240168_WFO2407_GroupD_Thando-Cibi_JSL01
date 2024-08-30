@@ -1,4 +1,16 @@
-# [JSL01] Submission: Syntax-Engine Interaction Challenge
+# Project Overview: Syntax-Engine Interaction Challenge
+Create a JavaScript function on virtual pet adoption website that:
+    ✅ Takes a string input
+    ✅ Validates if it follows the syntax: "pet_" + letters and numbers
+    ✅ Returns "Valid Syntax" if it matches, otherwise "Invalid Syntax"
+
+## What I learned
+1. How to insert an emoji in Javascript if the unicode has a format like this → 'U+1F1FA'
+    Reference - https://stackoverflow.com/questions/73301249/how-to-convert-unicode-point-to-emoji-symbol-character
+
+2. The startsWith() method which checks if a string starts with a specified string.
+
+## [JSL01] Submission: Syntax-Engine Interaction Challenge
 
 You will: 
 1. Use the Starter Code Repo, 
