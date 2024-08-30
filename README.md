@@ -10,6 +10,9 @@ Reference - https://stackoverflow.com/questions/73301249/how-to-convert-unicode-
 
 2. The startsWith() method which checks if a string starts with a specified string.
 
+## Challenges I faced
+While working on this project, I encountered some challenges with implementing the exact syntax pattern. My research pointed towards using regular expressions as a recommended solution. However, I found regex to be complex and was not comfortable using a solution I would not be able to explain and with the time constraints, I opted for an alternative validation method that I could explain during an assessment. I'm committed to revisiting regex in the future, deepening my understanding, and refining the project further. This iterative process aligns well with my continuous learning and improvement goals.
+
 ## [JSL01] Submission: Syntax-Engine Interaction Challenge
 
 You will: 
