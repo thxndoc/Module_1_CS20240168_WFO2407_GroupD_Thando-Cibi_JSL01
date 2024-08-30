@@ -1,9 +1,8 @@
 # Project Overview: Syntax-Engine Interaction Challenge
 Create a JavaScript function on virtual pet adoption website that:
-
-✅ Takes a string input
-✅ Validates if it follows the syntax: "pet_" + letters and numbers
-✅ Returns "Valid Syntax" if it matches, otherwise "Invalid Syntax"
+* ✅ Takes a string input
+* ✅ Validates if it follows the syntax: "pet_" + letters and numbers
+* ✅ Returns "Valid Syntax" if it matches, otherwise "Invalid Syntax"
 
 ## What I learned
 1. How to insert an emoji in Javascript if the unicode has a format like this → 'U+1F1FA'
