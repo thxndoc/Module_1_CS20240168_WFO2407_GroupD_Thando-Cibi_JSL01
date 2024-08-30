@@ -6,7 +6,7 @@ Create a JavaScript function on virtual pet adoption website that:
 
 ## What I learned
 1. How to insert an emoji in Javascript if the unicode has a format like this → 'U+1F1FA'
- - Reference - https://stackoverflow.com/questions/73301249/how-to-convert-unicode-point-to-emoji-symbol-character
+    - Reference - https://stackoverflow.com/questions/73301249/how-to-convert-unicode-point-to-emoji-symbol-character
 
 2. The startsWith() method which checks if a string starts with a specified string.
 
